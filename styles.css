@@ -1,0 +1,398 @@
+.navbar{
+    background-color: white;
+    height: 80px;
+    padding-top: 2px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand{
+    border-style: solid;
+    border-width: 0px 3px 3px 0px;
+    color: #ece8e8;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-text{
+    font-size: 25px;
+    left: 340px;
+    position: absolute;
+}
+
+.user-settings .user-photo {
+    background: url("http://www.newdesignfile.com/postpic/2012/07/dark-blue-circle-logo_317028.jpg");
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    outline: none;
+    height: 50px;
+    width: 50px;
+}
+
+.sidenav {
+    background-color: #111;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 85px;
+    position: fixed;
+    height: 100%;
+    width: 100px;
+    z-index: 1;
+  }
+.sidenav a {
+    color: #f1f1f1;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+  }
+  
+.sidenav a:hover {
+    color: cadetblue;
+  }
+  .main {
+    margin-left: 100px; 
+    padding: 0px 10px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 85px;}
+    .sidenav a {font-size: 15px;}
+  }
+  .sidenav i {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+}
+
+.sidenav span {
+    text-align: center;
+    display: block;
+}
+
+  .container-step {
+    width: 1300px;
+    padding-left: 450px;
+    padding-right: 0px;
+}
+
+.progressbar {
+    counter-reset: step;
+}
+.progressbar li {
+    color: #7d7d7d;
+    float: left;
+    font-size: 12px;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 25%;
+}
+.progressbar li:before {
+    background-color: rgb(50, 218, 101);
+    border-radius: 50%;
+    content: counter(step);
+    counter-increment: step;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    width: 30px;
+}
+.progressbar li:after {
+    background-color: #7d7d7d;
+    content: '';
+    height: 2px;
+    left: -50%;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    z-index: -1;
+}
+.progressbar li:first-child:after {
+    content: none;
+}
+.progressbar li.active {
+    color: rgb(12, 201, 12);
+}
+.progressbar li.active:before {
+    border-color: #55b776;
+}
+.progressbar li.active + li:after {
+    background-color: #55b776;
+}
+
+body{
+    background-color: #f1f5f8; 
+}
+.title{
+    margin-bottom: 0px;
+}
+
+.leftContainer{
+    padding-left: 25px;
+    padding-right: 300px;
+    padding-top: 50px;
+}
+.container-checkbox{
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    line-height: 33px;
+    padding: 20px;
+    width: 500px;
+}
+
+ .container-ul{
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    height: 200px;
+    line-height: 27px;
+    margin-top: 15px;
+    padding: 30px;
+    width: 500px;
+}
+
+.container-info{
+    background-color: azure;
+    margin-top: 15px;
+    padding: 20px 10px 5px 15px;
+    width: 500px;
+}
+
+.btnPrecedent{
+    background-color: grey;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    width: 166px;
+}
+
+.years{
+    bottom: 0px;
+    padding-left: 90px;
+    top: 250px;
+}
+
+.container-yearOne{
+    margin-top: 65px;
+}
+
+.container-year{
+    margin-top: 35px;
+}
+
+.container-One{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.sun{
+    padding-right: 0px;
+}
+
+.space{
+    padding-top: 15px;
+}
+
+
+.title-certificat{
+    color: #0983cf;
+}
+.certificat{
+    padding-top: 100px;
+    padding-right: 0px; 
+}
+
+.certificatB{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+.certificat.col {
+    border: 2px solid lightgrey;
+}
+
+.container-valeur{
+    margin-top: 50px;
+}
+
+.number{
+    padding-left: 30px;
+}
+
+  .info{
+      color: dimgrey;
+  }
+  .logo{
+      border-radius: 50%;
+      float: left;
+      overflow: hidden;
+      width: 40px;
+  }
+
+  .icon {
+    border-style: solid;
+    border-width: 0px 3px 3px 2px;
+    border-color: #ece8e8;
+    color: #3e8ecb;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 5px;
+    padding: 20px 40px 25px 40px;
+    position: absolute;
+    right: 95px;
+    text-shadow: 1px 1px 1px #1a5064;
+
+ }
+ .question{
+    align-self: center;
+    color: #097f94;
+    font-size: 65px;
+    padding-right: 0px;
+    padding-left: 0px;
+ }
+  
+ 
+
+input[type='radio'] {
+    margin: 0 8.5em;
+    transform: scale(2);
+}
+
+  .coloredText {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  input[type=checkbox] {
+    margin-right: 10px;
+    transform: scale(1.5);
+  }
+
+  .btn-light{
+    background-color: #e0ebf6;
+    border: 0px;
+    color: #0983cf;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .red{
+    background-color: #bb0606;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 10px 50px 10px 30px;
+  }
+
+  .container-parent{
+    background-color: white;
+    margin-right: none;
+    margin-left: 6px;
+    padding-top: 12px;
+  }
+
+.row-cellOne{
+    padding: 12px 12px 12px 25px;
+}
+
+.btn-table{
+    font-size: 14px;
+    margin-left: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.txtTable{
+    font-size:14px;
+    text-align: center;
+}
+
+.row-cellTwo{
+    margin-bottom: 10px;
+}
+
+.row-cellThree{
+    margin-right: 0px;
+}
+.icons{
+    color: #13da1c;
+    font-size:28px;
+    margin-top: 15px;
+    padding-right: 25px ;
+    padding-left: 270px;
+    padding-top: 15px;
+}
+
+.border {
+    border-bottom: 2px solid lightgrey !important;
+    border-left: 2px solid lightgrey !important;
+    margin-bottom: 4px;
+    margin-right: 6px;
+}
+
+.row-progres{
+    padding-left: 420px;
+}
+
+.container-valeur{
+    margin-top: 20px;
+    margin-left: 15px;
+} 
+.valeur{
+    border-radius: 6px;
+}
+
+.head{
+    padding-left: 15px;
+    text-align: center;
+}
+
+.priceCellOne{
+    color: #0983cf;
+    font-size: 38px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.price{
+    color: #0983cf;
+    font-size: 38px;
+    text-align: center;
+}
+
+.unit{
+    color: #0983cf;
+    font-size: 14px;
+    text-align: center;
+}
+
+.row-btn{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container-principal{
+    background-color: #097f94;
+}
+
+.bestseller{
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    text-indent: 134px;
+}
